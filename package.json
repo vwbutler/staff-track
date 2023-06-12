@@ -2,15 +2,17 @@
   "name": "staff-track",
   "version": "1.0.0",
   "description": "A command-line application built from scratch to manage a company's employee database, using Node.js, Inquirer, and MySQL.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Virginia",
   "license": "MIT",
   "dependencies": {
+    "console.table": "^0.10.0",
     "inquirer": "^8.2.4",
     "mysql": "^2.18.1",
-    "mysql2": "^3.3.3"
+    "mysql2": "^3.3.3",
+    "mysql2-promise": "^0.1.4"
   }
 }
